@@ -1,40 +1,42 @@
+const ref = document.querySelector('.foguete')
 
+const  foguete = {
+    tamanho: "normal",
+    velocidade: "normal",
 
-const carro = {
-    modelo: "fusca",
-    fabricante: "VW",
-    ano: 1968,
-    kmRodado: 400,
-    cor: preto,
-    
+    decolar: function(){
+        ref.classList.add('decolar')
+    },
+    descer: function(){
+        ref.classList.remove('decolar')
+        ref.classList.add('descer')
+    },
+    rodar: function(){
+        ref.classList.add('rodar')
+    }
 }
 
+const bandasCharles = ['David Gueta', 'Alok', "Death Maul"]
+const bandasAster = 'Atreyu'
+const bandasUellington = ['Led Zepeling', 'The Purpple']
+const bandasLucas = ['Two Pac', 'Eminem', 'Kendrick Lamar', 'Racionis']
+const bandasMarcelo = ['Queen', 'David Bowie', 'Bon jov', 'Imagine Dragons', 'Jimmie Hendrix']
 
-const cachorro =  {
-    //atributos
-    raca: "vira-lata rebaixado",
-    cor: 'branco',
-    sexo: 'fêmea',
-    tamanho: 'pequeno',
-    peso: '14kg',
-    idade: 3,
-    nome: "Braquinha",
-    //comportamentos
-    seApresentar: function () {
-    console.log( "Oi meu nome é ", this.nome, "minha raça é ", this.raca)
+console.log(bandasCharles[0])
+
+
+const cachorro = { 
+   //Atributos / Características
+    nome: 'Branquinha',
+    raca: 'Vira-lata Rebaixado',
+    genero: "Fêmea",
+    vacinas: ["raiva", "V12", "Leshi"],
+    brinquedos: ['bolinha', 'osso', 'ratinho'],
+    outrosGastos: [],
+    //Métodos / Comportamentos
+    registrarVacina: function(novaVacina) {
+        this.vacinas.push(novaVacina)
     },
-    latir: function() {
-        console.log("AHAHUAHAUHAHA AHAHA AU AUAU AUA AUA AU AU ")
-    },
-    rosnar: function(){
-        console.log('GRRRRRRRRRRRRRR!!!')
-    },
-    
+
 }
 
-console.log(   
-
-  cachorro.cor,
-
-
-)
