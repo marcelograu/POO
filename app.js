@@ -16,11 +16,14 @@ const  foguete = {
     }
 }
 
-const bandasCharles = ['David Gueta', 'Alok', "Death Maul"]
-const bandasAster = 'Atreyu'
-const bandasUellington = ['Led Zepeling', 'The Purpple']
-const bandasLucas = ['Two Pac', 'Eminem', 'Kendrick Lamar', 'Racionis']
-const bandasMarcelo = ['Queen', 'David Bowie', 'Bon jov', 'Imagine Dragons', 'Jimmie Hendrix']
+const bandasAster = 'Atreyu';
+
+
+const bandasCharles = ['David Gueta', 'Alok', "Death Maul"];
+
+const bandasUellington = ['Led Zepeling', 'The Purpple'];
+const bandasLucas = ['Two Pac', 'Eminem', 'Kendrick Lamar', 'Racionis'];
+const bandasMarcelo = ['Queen', 'David Bowie', 'Bon jov', 'Imagine Dragons', 'Jimmie Hendrix'];
 
 console.log(bandasCharles[0])
 
